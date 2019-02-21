@@ -1,0 +1,45 @@
+.radio label:before, .checkbox label:before {
+		background-color: transparent;
+		border: 1px solid transparent;
+	}
+	.radio label, .checkbox label {
+		padding-left: 0px !important;
+	}
+	.table tbody tr td {
+		padding: 10px !important;
+		font-size: 13.5px !important;
+
+	}
+
+	/***********/
+	.modal.fade.slide-up .modal-dialog {
+		display: block;
+	}
+	.modal.fade.slide-up .modal-content-wrapper {
+		display: block;
+
+	}
+	.table thead tr th:first-child {
+		padding-left: 10px !important;
+	}
+	.modal__width{width:85% !important; margin-top:30px  !important;  overflow-x: hidden;
+	}
+	@media (max-width:767px){
+		.modal__width{width:100% !important; margin:10px; overflow-x: hidden !important;
+		}
+	}
+
+	.asr___checkbox label:before {
+
+		background-color: #f7f7f7;
+		border: 1px solid #cccccc;
+	}
+	.asr___checkbox label {
+
+		padding-left: 25px !important;
+
+	}
+/*update-schedule*/
+	hr{
+		margin-top: 42px;
+	}

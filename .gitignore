@@ -1,0 +1,16 @@
+### Laravel ###
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+.env
+### config/constants.php ###
+
+### Node ###
+/node_modules
+*.log
+npm-debug.log*
+config/constants.php
+/nbproject/private/

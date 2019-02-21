@@ -1,0 +1,9 @@
+[26-Feb-2018 19:04:03 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/invoyce/staging.invoyce.me/app/app/Components/stripe/init.php): failed to open stream: No such file or directory' in /home/invoyce/staging.invoyce.me/app/Http/Controllers/DashboardController.php:59
+Stack trace:
+#0 /home/invoyce/staging.invoyce.me/app/Http/Controllers/DashboardController.php(59): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/i...', '/home/invoyce/s...', 59, Array)
+#1 /home/invoyce/staging.invoyce.me/app/Http/Controllers/DashboardController.php(59): App\Http\Controllers\DashboardController::billing()
+#2 [internal function]: App\Http\Controllers\DashboardController->billing()
+#3 /home/invoyce/staging.invoyce.me/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(80): call_user_func_array(Array, Array)
+#4 /home/invoyce/staging.invoyce.me/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(146): Illuminate\Routing\Controller->callAction('billing', Array)
+#5 /home/invoyc in /home/invoyce/staging.invoyce.me/app/Http/Controllers/DashboardController.php on line 59
+[26-Feb-2018 19:04:03 UTC] PHP Fatal error:  App\Http\Controllers\DashboardController::billing(): Failed opening required '/home/invoyce/staging.invoyce.me/app/app/Components/stripe/init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/invoyce/staging.invoyce.me/app/Http/Controllers/DashboardController.php on line 59

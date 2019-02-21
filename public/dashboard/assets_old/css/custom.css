@@ -1,0 +1,94 @@
+.btn-link:focus, .btn-link:hover {
+    color: #1EB343!important;
+}
+.header .bubble span {
+	font-size: 11px;
+	position: relative;
+	top: -5px;
+	float: right;
+	right: 4px;
+}
+.table-responsive {
+	overflow-x: inherit!important;
+}
+.center img {
+	margin: 0 auto;
+}
+.round {
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px; 
+	border: 2px solid #1EB343;
+}
+.page-sidebar .sidebar-menu .menu-items > li > a.btn {
+	margin: 20px 0 0 32px;
+	padding-left: 0px;
+	color: #fff;
+}
+.error-message {
+	display: block;
+	color:red;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	line-height: 25px;
+	margin: 0px 0px 10px 0px;
+	font-style: normal;
+	white-space: normal;
+}
+
+
+/****** Helpers ******/
+.gap {
+	clear: both;
+	height: 40px;
+}
+.gap-50 {
+	clear: both;
+	height: 50px;
+}
+.gap-75 {
+	clear: both;
+	height: 75px;
+}
+.gap-100 {
+	clear: both;
+	height: 100px;
+}
+.gap-30 {
+	clear: both;
+	height: 30px;
+}
+.gap-35 {
+	clear: both;
+	height: 35px;
+}
+.gap-33 {
+	clear: both;
+	height: 33px;
+}
+.gap-45 {
+	clear: both;
+	height: 45px;
+}
+.gap-40 {
+	clear: both;
+	height: 40px;
+}
+.gap-25 {
+	clear: both;
+	height: 25px;
+}
+.gap-20 {
+	clear: both;
+	height: 20px;
+}
+.gap-10 {
+	clear: both;
+	height: 10px;
+}
+.gap-clear {
+	clear: both;
+	height: 10px;
+}

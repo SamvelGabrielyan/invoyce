@@ -1,0 +1,121 @@
+/****** Helpers ******/
+.gap {
+	clear: both;
+	height: 40px;
+}
+.gap-50 {
+	clear: both;
+	height: 50px;
+}
+.gap-75 {
+	clear: both;
+	height: 75px;
+}
+.gap-100 {
+	clear: both;
+	height: 100px;
+}
+.gap-30 {
+	clear: both;
+	height: 30px;
+}
+.gap-35 {
+	clear: both;
+	height: 35px;
+}
+.gap-33 {
+	clear: both;
+	height: 33px;
+}
+.gap-45 {
+	clear: both;
+	height: 45px;
+}
+.gap-40 {
+	clear: both;
+	height: 40px;
+}
+.gap-25 {
+	clear: both;
+	height: 25px;
+}
+.gap-20 {
+	clear: both;
+	height: 20px;
+}
+.gap-10 {
+	clear: both;
+	height: 10px;
+}
+.gap-clear {
+	clear: both;
+	height: 10px;
+}
+
+.header .bubble span {
+	font-size: 11px;
+	position: relative;
+	top: -5px;
+	float: right;
+	right: 4px;
+}
+.table-responsive {
+	overflow-x: inherit!important;
+}
+.center img {
+	margin: 0 auto;
+}
+.round {
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px; 
+	border: 2px solid #1EB343;
+}
+.page-sidebar .sidebar-menu .menu-items > li > a.btn {
+	margin: 20px 0 0 32px;
+	padding-left: 0px;
+	color: #fff;
+
+}
+.error-message{
+	color: red;
+}
+
+.select2border{
+	border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 2px;
+}
+
+.card-form-group{
+	color: #2c2c2c;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 55px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: #FDFDFD;
+    box-sizing: border-box;
+    padding: 0;
+    padding-left:38px;
+    width: 100%;
+}
+
+.card-form-group:focus{
+	background-color: #fff;
+    outline: 0;
+    border-color: #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+#modal_dailog_width {
+	width: 100% !important;
+	padding-left: 250px !important;
+	margin-top: 100px !important;
+}
+#popup_content{
+    overflow-y: scroll !important;
+    height: 700px;
+}
